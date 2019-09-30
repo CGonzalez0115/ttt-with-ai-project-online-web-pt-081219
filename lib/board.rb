@@ -42,4 +42,9 @@ class Board
   def update(position, player)
       self.cells[position.to_i-1] = player.token
   end
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 8747699514c95f30891966ff461cbf831fdf8b04
 end
