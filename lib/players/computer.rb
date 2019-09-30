@@ -1,9 +1,6 @@
 module Players
-<<<<<<< HEAD
   class Computer < Player
-=======
   class Computer < Game
->>>>>>> 8747699514c95f30891966ff461cbf831fdf8b04
     def move(board)
       if board.cells[1]
         "2"
@@ -26,10 +23,4 @@ module Players
       end
     end
   end
-<<<<<<< HEAD
 end
-=======
-
-
-        
->>>>>>> 8747699514c95f30891966ff461cbf831fdf8b04
